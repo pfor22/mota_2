@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.homepage{
+    height: 250vh;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.icon img{
+    width: 3vw;
+    height: 6vh;
+}
+
+.preoptions{
+    width: 30vw;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*                         Middle page */
+
+.getfree{
+    height: 70vh;
+}
+.phone{
+    height: 70vh;
+    border: 5px solid blue;
+}
+
+.phone img{
+    border: 2px solid red;
+    height: 45vh;
+
+}
+
+
+.whyspotify{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.letsplay{
+    border: 2px solid green;
+    height: 50vh;
+}
+
